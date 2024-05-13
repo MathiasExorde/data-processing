@@ -1,0 +1,5 @@
+SELECT "__time",
+       "value"
+FROM "druid"."crypto-prices"
+WHERE token = 'shiba-inu'
+AND "__time" >= '2023-10-17 00:00:00.000000'
